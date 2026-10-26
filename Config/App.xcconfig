@@ -1,0 +1,7 @@
+// Base build settings for the IanRoyz target.
+// Supabase credentials are optional. Without them THE CLASS ROLL runs on the
+// device-only backend. To connect a real project, copy
+// Secrets.example.xcconfig to Secrets.xcconfig (git-ignored) and fill it in.
+SUPABASE_HOST =
+SUPABASE_ANON_KEY =
+#include? "Secrets.xcconfig"

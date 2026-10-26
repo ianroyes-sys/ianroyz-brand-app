@@ -1,0 +1,23 @@
+# Xcode
+DerivedData/
+build/
+*.xcarchive
+*.ipa
+*.dSYM*
+xcuserdata/
+*.xcuserstate
+# Secrets
+Config/Secrets.xcconfig
+*.mobileprovision
+*.p12
+*.p8
+*.cer
+ExportOptionsLocal.plist
+ExportOptionsManual.plist
+# Large media kept out of git (see README)
+_originals-*/
+_unused-images/
+IanRoyz/Resources/*.mp4
+IanRoyz/Resources/*.mov
+# OS
+.DS_Store
